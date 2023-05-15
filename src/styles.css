@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.square {
+  border: 2px solid darkblue;
+  width: 4rem;
+  height: 4rem;
+  background-color: lightblue;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+.board {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 70px 70px 70px;
+  grid-column-gap: 0;
+  gap: 0;
+}
